@@ -2,21 +2,19 @@
 
 ## API 4º SEMESTRE
 
-Teste2
-
 ### Resumo do Projeto
 
 #### Nome do Sistema e o logo
 
 AgendHouse 📅
-<p> <img src="logo_agendhouse.png" alt="AgendHouse" class="center" width=600/> </p>
+<p> <img src="imagens-4-semestre/logo_agendhouse.png" alt="AgendHouse" class="center" width=600/> </p>
 
 #### Resumo
 
 O projeto a ser desenvolvido vai ser um sistema para agendamentos de eventos na [Casa Oracle](https://blogs.oracle.com/oracle-brasil/casa-oracle-abre-as-portas-para-a-inovacao-em-sao-paulo) buscando solucionar os obstáculos da pandemia do [Covid-19](https://covid.saude.gov.br/).
 
 #### Status do projeto
-🚧  Sistema 🚀 Em construção...  🚧
+Sistema 🚀 Finalizado
 
 #### Projeto 🖥
 Projeto realizado em parceria com a Oracle Corporation uma empresa que atua na área da Computação e Informática juntamente com a Faculdade de Tecnologia de São José dos Campos Professor Jessen Vidal.
@@ -68,7 +66,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### Telas desenvolvidas por mim
 
 <p align="center"> Tela de Login </p>
-<p align="center"> <img src="tela_login.png" alt="tela de login" class="center" width=800/> </p>
+<p align="center"> <img src="imagens-4-semestre/tela_login.png" alt="tela de login" class="center" width=800/> </p>
 
 ```bash
 <v-form
@@ -117,7 +115,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ```
 
 <p align="center"> Tela para um usuário externo criar uma conta no sistema </p>
-<p align="center"> <img src="tela_criar_conta.png" alt="tela de criação de conta" class="center" width=800/> </p>
+<p align="center"> <img src="imagens-4-semestre/tela_criar_conta.png" alt="tela de criação de conta" class="center" width=800/> </p>
 
 ```bash
 <v-form
@@ -202,8 +200,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ```
 
 <p align="center"> Tela de gerenciamento de Usuário (CRUD)</p>
-<p align="center"> <img src="tela_usuario_1.png" alt="tela de gerenciamento de usuário" class="center" width=800/> </p>
-<p align="center"> <img src="tela_usuario_2.png" alt="tela de gerenciamento de usuário" class="center" width=800/> </p>
+<p align="center"> <img src="imagens-4-semestre/tela_usuario_1.png" alt="tela de gerenciamento de usuário" class="center" width=800/> </p>
+<p align="center"> <img src="imagens-4-semestre/tela_usuario_2.png" alt="tela de gerenciamento de usuário" class="center" width=800/> </p>
 
 ```bash
 // Método de cadastro de usuario
@@ -258,10 +256,10 @@ cadastrar_usuario() {
 ```
 
 <p align="center"> Tela de Fornecedor</p>
-<p align="center"> <img src="tela_fornecedor_1.png" alt="tela de fornecedor" class="center" width=800/> </p>
+<p align="center"> <img src="imagens-4-semestre/tela_fornecedor_1.png" alt="tela de fornecedor" class="center" width=800/> </p>
 
 <p align="center"> Tela de Agendamento de Evento</p>
-<p align="center"> <img src="tela_evento_1.png" alt="tela de agendamento de evento" class="center" width=800/> </p>
+<p align="center"> <img src="imagens-4-semestre/tela_evento_1.png" alt="tela de agendamento de evento" class="center" width=800/> </p>
 
 ```bash
 // Método pra exibir os eventos
@@ -282,8 +280,8 @@ exibir_evento() {
 ```
 
 <p align="center"> Tela de Visitante (CRUD)</p>
-<p align="center"> <img src="tela_visitante_1.png" alt="tela de agendamento de visitante" class="center" width=800/> </p>
-<p align="center"> <img src="tela_visitante_2.png" alt="tela de agendamento de visitante" class="center" width=800/> </p>
+<p align="center"> <img src="imagens-4-semestre/tela_visitante_1.png" alt="tela de agendamento de visitante" class="center" width=800/> </p>
+<p align="center"> <img src="imagens-4-semestre/tela_visitante_2.png" alt="tela de agendamento de visitante" class="center" width=800/> </p>
 
 ```bash
 // Método pra excluir os visitantes
