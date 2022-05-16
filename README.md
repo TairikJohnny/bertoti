@@ -1,28 +1,31 @@
-# Portfólio dos APIs (Aprendizagem por Projetos Integrados) do Curso Superior de Tecnologia em Banco de Dados - Fatec São José dos Campos - Professor Jessen Vidal
+<h4 align="center">Tairik Johnny Maciel Nishimura</h4>
 
-## API 4º SEMESTRE
+# 
+<h1 align="center">Olá, sou Tairik</h1>
 
-### Resumo do Projeto
+Estudante de computação, desenvolvedor e estas são minhas experiências na Fatec SJC.
 
-#### Nome do Sistema e o logo
+<h1 align="center">API 4º SEMESTRE</h1>
 
-AgendHouse 📅
+<h3 align="center">Resumo do Projeto</h3>
+
 <p> <img src="imagens-4-semestre/logo_agendhouse.png" alt="AgendHouse" class="center" width=600/> </p>
 
-#### Resumo
+<h4 align="center">Resumo</h4>
 
 O projeto a ser desenvolvido vai ser um sistema para agendamentos de eventos na [Casa Oracle](https://blogs.oracle.com/oracle-brasil/casa-oracle-abre-as-portas-para-a-inovacao-em-sao-paulo) buscando solucionar os obstáculos da pandemia do [Covid-19](https://covid.saude.gov.br/).
 
-#### Status do projeto
+<h4 align="center">Status do projeto</h4>
+
 Sistema 🚀 Finalizado
 
-#### Projeto 🖥
+<h4 align="center">Projeto 🖥</h4>
 Projeto realizado em parceria com a Oracle Corporation uma empresa que atua na área da Computação e Informática juntamente com a Faculdade de Tecnologia de São José dos Campos Professor Jessen Vidal.
 
-#### Desafio 📈
+<h4 align="center">Desafio 📈</h4>
 Desafio proposto pela Oracle Corporation - "No escritório de São Paulo, temos um espaço de inovação aberta chamado Casa Oracle, que é um local para realização de eventos internos/externos, workshops e palestras. Dentro do contexto das restrições sanitárias, nosso desafio é criar uma plataforma para o gerenciamento da utilização do espaço, onde nossos colaboradores poderão fazer a solicitação de agendamento, definindo os convidados e recursos necessários para o evento."
 
-### Tecnologias adotadas na solução
+<h3 align="center">Tecnologias adotadas na solução</h3>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -54,7 +57,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <img alt="image" src="https://img.shields.io/badge/Spring_Boot-%23696969?style=for-the-badge&logo=Spring">
 </a>
 
-### Contribuições individuais/pessoais
+<h3 align="center">Contribuições individuais/pessoais</h3>
 
  - Nesse projeto do 4º semestre eu assumi o papel de Scrum Master e atuei efetivamente no front-end.
  - Trabalhei principalmente no Front-end desenvolvendo as telas e consumindo as API REST, programei cerca de 80% do front-end.
@@ -63,7 +66,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  - Fiz todo o gerenciamento do GitHub, como acessos ao repositorio e gerenciamento de branchs.
  - Exercendo o papel de Scrum Master eu ajudei a gerenciar a equipe e o projeto, marcando as reuniões e seguindo os rituais da metodologia SCRUM.
  
-#### Telas desenvolvidas por mim
+<h4 align="center">Telas desenvolvidas por mim</h4>
 
 <p align="center"> Tela de Login </p>
 <p align="center"> <img src="imagens-4-semestre/tela_login.png" alt="tela de login" class="center" width=800/> </p>
@@ -303,12 +306,20 @@ deletar_visitante(visitante) {
 },
 ```
 
-### Aprendizados Efetivos
+<h4 align="center">Hard Skills Efetivamente Desenvolvidas</h4>
 
-- Aprofundei meus conhecimentos no framework Vuejs como um todo.
-- Aprendi a trabalhar com API REST no Vuejs.
-- Aprendi a trabalhar com gerencimento de Organizações e Repositórios no GitHub.
-- Aprendi como é gerenciar uma equipe através do método SCRUM.
-- Aprofundei os meus conhecimentos na padrão de projetos MVC, o seu princípio básico é a divisão da aplicação em três camadas: a camada de interação do usuário (view), a camada de manipulação dos dados (model) e a camada de controle (controller).
-- Como utilizamos um framework Javascript para facilitar a programação eu aprofundei os meus conhecimentos no padrão de projetos Facade que é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
-- Como utlizamos o framework Javascript Vuejs aonde temos a estrutura de componentes compondo componentes eu aprofundei os meus conhecimentos no padrão de projetos Composite que é um padrão de projeto estrutural que permite que você componha objetos em estruturas de árvores e então trabalhe com essas estruturas como se elas fossem objetos individuais.
+- [X] Aprofundei meus conhecimentos no framework Vuejs como um todo.
+- [X] Aprendi a trabalhar com API REST no Vuejs.
+- [X] Aprendi a trabalhar com gerencimento de Organizações e Repositórios no GitHub.
+- [X] Aprendi como é gerenciar uma equipe através do método SCRUM.
+- [X] Aprofundei os meus conhecimentos na padrão de projetos MVC, o seu princípio básico é a divisão da aplicação em três camadas: a camada de interação do usuário (view), a camada de manipulação dos dados (model) e a camada de controle (controller).
+- [X] Como utilizamos um framework Javascript para facilitar a programação eu aprofundei os meus conhecimentos no padrão de projetos Facade que é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
+- [X] Como utlizamos o framework Javascript Vuejs aonde temos a estrutura de componentes compondo componentes eu aprofundei os meus conhecimentos no padrão de projetos Composite que é um padrão de projeto estrutural que permite que você componha objetos em estruturas de árvores e então trabalhe com essas estruturas como se elas fossem objetos individuais.
+
+<h4 align="center">Soft Skills Efetivamente Desenvolvidas</h4>
+
+- [X] Trabalho em equipe
+- [X] Responsabilidade
+- [X] Organização
+- [X] Gestão do tempo
+- [X] Confiança
