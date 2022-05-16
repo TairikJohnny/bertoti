@@ -24,8 +24,6 @@ Desafio proposto pela Oracle Corporation - "No escritório de São Paulo, temos 
 
 <h3 align="center">Tecnologias adotadas na solução</h3>
 
-As seguintes ferramentas foram usadas na construção do projeto:
-
 <div align="center">
 
 <a href="https://vuejs.org/">
