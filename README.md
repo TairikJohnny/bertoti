@@ -60,12 +60,12 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <h3 align="center">Contribuições individuais/pessoais</h3>
 
- - Nesse projeto do 4º semestre eu assumi o papel de Scrum Master e atuei efetivamente no front-end.
- - Trabalhei principalmente no Front-end desenvolvendo as telas e consumindo as API REST, programei cerca de 80% do front-end.
- - Dei a ideia de ser utilizado o Vuejs como framework web.
- - Ajudei alguns integrantes que não conheciam o framework Vuejs.
- - Fiz todo o gerenciamento do GitHub, como acessos ao repositorio e gerenciamento de branchs.
- - Exercendo o papel de Scrum Master eu ajudei a gerenciar a equipe e o projeto, marcando as reuniões e seguindo os rituais da metodologia SCRUM.
+- [X] Nesse projeto do 4º semestre eu assumi o papel de Scrum Master e atuei efetivamente no front-end.
+- [X] Trabalhei principalmente no Front-end desenvolvendo as telas e consumindo as API REST, programei cerca de 80% do front-end.
+- [X] Dei a ideia de ser utilizado o Vuejs como framework web.
+- [X] Ajudei alguns integrantes que não conheciam o framework Vuejs.
+- [X] Fiz todo o gerenciamento do GitHub, como acessos ao repositorio e gerenciamento de branchs.
+- [X] Exercendo o papel de Scrum Master eu ajudei a gerenciar a equipe e o projeto, marcando as reuniões e seguindo os rituais da metodologia SCRUM.
  
 <p align="center">Telas desenvolvidas por mim</p>
 
