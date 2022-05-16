@@ -10,14 +10,14 @@
 
 <p align="center"> <img src="imagens-4-semestre/logo_agendhouse.png" alt="AgendHouse" class="center" width=600/> </p>
 
-<h4 align="center">Resumo</h4>
+<p align="center">Resumo</p>
 
 O projeto a ser desenvolvido vai ser um sistema para agendamentos de eventos na [Casa Oracle](https://blogs.oracle.com/oracle-brasil/casa-oracle-abre-as-portas-para-a-inovacao-em-sao-paulo) buscando solucionar os obstáculos da pandemia do [Covid-19](https://covid.saude.gov.br/).
 
-<h4 align="center">Projeto 🖥</h4>
+<p align="center">Projeto 🖥</p>
 Projeto realizado em parceria com a Oracle Corporation uma empresa que atua na área da Computação e Informática juntamente com a Faculdade de Tecnologia de São José dos Campos Professor Jessen Vidal.
 
-<h4 align="center">Desafio 📈</h4>
+<p align="center">Desafio 📈</p>
 Desafio proposto pela Oracle Corporation - "No escritório de São Paulo, temos um espaço de inovação aberta chamado Casa Oracle, que é um local para realização de eventos internos/externos, workshops e palestras. Dentro do contexto das restrições sanitárias, nosso desafio é criar uma plataforma para o gerenciamento da utilização do espaço, onde nossos colaboradores poderão fazer a solicitação de agendamento, definindo os convidados e recursos necessários para o evento."
 
 <h3 align="center">Tecnologias adotadas na solução</h3>
@@ -65,7 +65,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  - Fiz todo o gerenciamento do GitHub, como acessos ao repositorio e gerenciamento de branchs.
  - Exercendo o papel de Scrum Master eu ajudei a gerenciar a equipe e o projeto, marcando as reuniões e seguindo os rituais da metodologia SCRUM.
  
-<h4 align="center">Telas desenvolvidas por mim</h4>
+<p align="center">Telas desenvolvidas por mim</p>
 
 <p align="center"> Tela de Login </p>
 <p align="center"> <img src="imagens-4-semestre/tela_login.png" alt="tela de login" class="center" width=800/> </p>
