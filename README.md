@@ -1,15 +1,14 @@
 <h4 align="center">Tairik Johnny Maciel Nishimura</h4>
 
-# 
 <h1 align="center">Olá, sou Tairik</h1>
 
-Estudante de computação, desenvolvedor e estas são minhas experiências na Fatec SJC.
+<p align="center">Estudante de computação, desenvolvedor e estas são minhas experiências na Fatec SJC.</p>
 
 <h1 align="center">API 4º SEMESTRE</h1>
 
 <h3 align="center">Resumo do Projeto</h3>
 
-<p> <img src="imagens-4-semestre/logo_agendhouse.png" alt="AgendHouse" class="center" width=600/> </p>
+<p align="center"> <img src="imagens-4-semestre/logo_agendhouse.png" alt="AgendHouse" class="center" width=600/> </p>
 
 <h4 align="center">Resumo</h4>
 
@@ -24,6 +23,8 @@ Desafio proposto pela Oracle Corporation - "No escritório de São Paulo, temos 
 <h3 align="center">Tecnologias adotadas na solução</h3>
 
 As seguintes ferramentas foram usadas na construção do projeto:
+
+<div align="center">
 
 <a href="https://vuejs.org/">
   <img alt="image" src="https://img.shields.io/badge/Vue.js-%23696969?style=for-the-badge&logo=vue.js">
@@ -52,6 +53,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://spring.io/projects/spring-boot">
   <img alt="image" src="https://img.shields.io/badge/Spring_Boot-%23696969?style=for-the-badge&logo=Spring">
 </a>
+
+</div>
 
 <h3 align="center">Contribuições individuais/pessoais</h3>
 
