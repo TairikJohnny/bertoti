@@ -15,10 +15,6 @@ Estudante de computação, desenvolvedor e estas são minhas experiências na Fa
 
 O projeto a ser desenvolvido vai ser um sistema para agendamentos de eventos na [Casa Oracle](https://blogs.oracle.com/oracle-brasil/casa-oracle-abre-as-portas-para-a-inovacao-em-sao-paulo) buscando solucionar os obstáculos da pandemia do [Covid-19](https://covid.saude.gov.br/).
 
-<h4 align="center">Status do projeto</h4>
-
-Sistema 🚀 Finalizado
-
 <h4 align="center">Projeto 🖥</h4>
 Projeto realizado em parceria com a Oracle Corporation uma empresa que atua na área da Computação e Informática juntamente com a Faculdade de Tecnologia de São José dos Campos Professor Jessen Vidal.
 
