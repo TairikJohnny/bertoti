@@ -4,6 +4,117 @@
 
 <p align="center">Estudante de computação, desenvolvedor e estas são minhas experiências na Fatec SJC.</p>
 
+<h1 align="center">API 1º SEMESTRE</h1>
+
+<h3 align="center">Resumo do Projeto</h3>
+
+<p align="center"> <img src="imagens-1-semestre/logo.png" alt="AgendHouse" class="center" width=150/> </p>
+
+<h2 align="center">
+NUNA, sua assistente de voz para viagens
+</h2>
+
+<p align="center">Resumo</p>
+
+Uma assistente guiada por comando de voz para auxiliá-lo em sua viagem e estadia.
+
+<p align="center">Projeto 🖥</p>
+
+Projeto proposto pelos professores do 1º semestre da Faculdade de Tecnologia de São José dos Campos Professor Jessen Vidal.
+
+<p align="center">Desafio 📈</p>
+
+O desafio é criar uma assitente de voz que vai auxiliar o usuário a organizar e planejar a sua viagem e estadia consumindo APIs públicas.
+
+<h3 align="center">Tecnologias adotadas na solução</h3>
+
+<div align="center">
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+  <img src="https://img.shields.io/static/v1?label=HTML5&message=Front-End&color=E34F26&style=for-the-badge&logo=HTML5"/>
+</a>
+<a href="https://nodejs.org/en/">
+<img src="https://img.shields.io/static/v1?label=CSS3&message=Front-End&color=1572B6&style=for-the-badge&logo=CSS3"/>
+</a>
+<a href="https://www.javascript.com/">
+  <img src="https://img.shields.io/static/v1?label=JavaScript&message=Back-End&color=F7DF1E&style=for-the-badge&logo=JavaScript"/>
+</a>
+
+</div>
+
+<h3 align="center">Contribuições individuais/pessoais</h3>
+
+- [x] Trabalhei na tela de clima, ela descobre a localização do usuário e retorna o clima atualizado consumindo uma API pública do site [Weather API](https://openweathermap.org/api).
+
+<!-- <p align="center">Telas desenvolvidas por mim</p>
+
+<p align="center"> Tela de Login </p>
+<p align="center"> <img src="imagens-4-semestre/tela_login.png" alt="tela de login" class="center" width=800/> </p>
+
+```bash
+<v-form
+  ref="form"
+  v-model="valid"
+  lazy-validation
+  @submit.prevent="do_login"
+>
+  <span style="color: white; font-size: 18px">E-mail</span>
+  <v-text-field
+    label="Email"
+    v-model="usuario.email"
+    :rules="regra_email"
+    single-line
+    solo
+    required
+    dense
+    background-color="#A9A9A9"
+  ></v-text-field>
+  <span style="color: white; font-size: 18px">Senha</span>
+  <v-text-field
+    label="Senha"
+    v-model="usuario.senha"
+    :rules="regra_senha"
+    background-color="#A9A9A9"
+    single-line
+    solo
+    required
+    dense
+    password
+    :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
+    :type="show1 ? 'text' : 'password'"
+    @click:append="show1 = !show1"
+  ></v-text-field>
+  <v-btn
+    id="botao-login"
+    block
+    color="#C84634"
+    type="submit"
+    class="white--text"
+    :disabled="!valid"
+    @click="validate"
+    >Login</v-btn
+  >
+</v-form>
+``` -->
+
+<h4 align="center">Hard Skills Efetivamente Desenvolvidas</h4>
+
+- [x] Aprofundei meus conhecimentos no framework Vuejs como um todo.
+- [x] Aprendi a trabalhar com API REST no Vuejs.
+- [x] Aprendi a trabalhar com gerencimento de Organizações e Repositórios no GitHub.
+- [x] Aprendi como é gerenciar uma equipe através do método SCRUM.
+- [x] Aprofundei os meus conhecimentos na padrão de projetos MVC, o seu princípio básico é a divisão da aplicação em três camadas: a camada de interação do usuário (view), a camada de manipulação dos dados (model) e a camada de controle (controller).
+- [x] Como utilizamos um framework Javascript para facilitar a programação eu aprofundei os meus conhecimentos no padrão de projetos Facade que é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
+- [x] Como utlizamos o framework Javascript Vuejs aonde temos a estrutura de componentes compondo componentes eu aprofundei os meus conhecimentos no padrão de projetos Composite que é um padrão de projeto estrutural que permite que você componha objetos em estruturas de árvores e então trabalhe com essas estruturas como se elas fossem objetos individuais.
+
+<h4 align="center">Soft Skills Efetivamente Desenvolvidas</h4>
+
+- [x] Trabalho em equipe
+- [x] Responsabilidade
+- [x] Organização
+- [x] Gestão do tempo
+- [x] Confiança
+
 <h1 align="center">API 4º SEMESTRE</h1>
 
 <h3 align="center">Resumo do Projeto</h3>
@@ -58,13 +169,13 @@ Desafio proposto pela Oracle Corporation - "No escritório de São Paulo, temos 
 
 <h3 align="center">Contribuições individuais/pessoais</h3>
 
-- [X] Nesse projeto do 4º semestre eu assumi o papel de Scrum Master e atuei efetivamente no front-end.
-- [X] Trabalhei principalmente no Front-end desenvolvendo as telas e consumindo as API REST, programei cerca de 80% do front-end.
-- [X] Dei a ideia de ser utilizado o Vuejs como framework web.
-- [X] Ajudei alguns integrantes que não conheciam o framework Vuejs.
-- [X] Fiz todo o gerenciamento do GitHub, como acessos ao repositorio e gerenciamento de branchs.
-- [X] Exercendo o papel de Scrum Master eu ajudei a gerenciar a equipe e o projeto, marcando as reuniões e seguindo os rituais da metodologia SCRUM.
- 
+- [x] Nesse projeto do 4º semestre eu assumi o papel de Scrum Master e atuei efetivamente no front-end.
+- [x] Trabalhei principalmente no Front-end desenvolvendo as telas e consumindo as API REST, programei cerca de 80% do front-end.
+- [x] Dei a ideia de ser utilizado o Vuejs como framework web.
+- [x] Ajudei alguns integrantes que não conheciam o framework Vuejs.
+- [x] Fiz todo o gerenciamento do GitHub, como acessos ao repositorio e gerenciamento de branchs.
+- [x] Exercendo o papel de Scrum Master eu ajudei a gerenciar a equipe e o projeto, marcando as reuniões e seguindo os rituais da metodologia SCRUM.
+
 <p align="center">Telas desenvolvidas por mim</p>
 
 <p align="center"> Tela de Login </p>
@@ -307,18 +418,18 @@ deletar_visitante(visitante) {
 
 <h4 align="center">Hard Skills Efetivamente Desenvolvidas</h4>
 
-- [X] Aprofundei meus conhecimentos no framework Vuejs como um todo.
-- [X] Aprendi a trabalhar com API REST no Vuejs.
-- [X] Aprendi a trabalhar com gerencimento de Organizações e Repositórios no GitHub.
-- [X] Aprendi como é gerenciar uma equipe através do método SCRUM.
-- [X] Aprofundei os meus conhecimentos na padrão de projetos MVC, o seu princípio básico é a divisão da aplicação em três camadas: a camada de interação do usuário (view), a camada de manipulação dos dados (model) e a camada de controle (controller).
-- [X] Como utilizamos um framework Javascript para facilitar a programação eu aprofundei os meus conhecimentos no padrão de projetos Facade que é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
-- [X] Como utlizamos o framework Javascript Vuejs aonde temos a estrutura de componentes compondo componentes eu aprofundei os meus conhecimentos no padrão de projetos Composite que é um padrão de projeto estrutural que permite que você componha objetos em estruturas de árvores e então trabalhe com essas estruturas como se elas fossem objetos individuais.
+- [x] Aprofundei meus conhecimentos no framework Vuejs como um todo.
+- [x] Aprendi a trabalhar com API REST no Vuejs.
+- [x] Aprendi a trabalhar com gerencimento de Organizações e Repositórios no GitHub.
+- [x] Aprendi como é gerenciar uma equipe através do método SCRUM.
+- [x] Aprofundei os meus conhecimentos na padrão de projetos MVC, o seu princípio básico é a divisão da aplicação em três camadas: a camada de interação do usuário (view), a camada de manipulação dos dados (model) e a camada de controle (controller).
+- [x] Como utilizamos um framework Javascript para facilitar a programação eu aprofundei os meus conhecimentos no padrão de projetos Facade que é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
+- [x] Como utlizamos o framework Javascript Vuejs aonde temos a estrutura de componentes compondo componentes eu aprofundei os meus conhecimentos no padrão de projetos Composite que é um padrão de projeto estrutural que permite que você componha objetos em estruturas de árvores e então trabalhe com essas estruturas como se elas fossem objetos individuais.
 
 <h4 align="center">Soft Skills Efetivamente Desenvolvidas</h4>
 
-- [X] Trabalho em equipe
-- [X] Responsabilidade
-- [X] Organização
-- [X] Gestão do tempo
-- [X] Confiança
+- [x] Trabalho em equipe
+- [x] Responsabilidade
+- [x] Organização
+- [x] Gestão do tempo
+- [x] Confiança
