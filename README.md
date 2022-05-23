@@ -24,7 +24,7 @@ Projeto proposto pelos professores do 1º semestre da Faculdade de Tecnologia de
 
 <p align="center">Desafio 📈</p>
 
-O desafio é criar uma assitente de voz que vai auxiliar o usuário a organizar e planejar a sua viagem e estadia consumindo APIs públicas.
+O desafio foi criar uma assitente de voz que vai auxiliar o usuário a organizar e planejar a sua viagem e estadia consumindo APIs públicas.
 
 <h3 align="center">Tecnologias adotadas na solução</h3>
 
@@ -102,6 +102,121 @@ function fetchApi(url) {
 - [x] Comecei a aprender JavaScript.
 - [x] Comecei a aprender a consumir APIs.
 - [x] Aprofundei os meus conhecimentos com HTML e CSS.
+
+<h4 align="center">Soft Skills Efetivamente Desenvolvidas</h4>
+
+- [x] Trabalho em equipe
+- [x] Responsabilidade
+- [x] Organização
+- [x] Gestão do tempo
+- [x] Confiança
+
+<h1 align="center">API 2º SEMESTRE</h1>
+
+<h3 align="center">Resumo do Projeto</h3>
+
+<p align="center"> <img src="imagens-2-semestre/icone_pi.png" alt="AgendHouse" class="center" width=200/> </p>
+
+<p align="center">Resumo</p>
+
+Software para cadastro de conta de água e luz para a empresa parceira da Fatec - SJC.
+
+<p align="center">Projeto 🖥</p>
+
+Projeto proposto pelo parceiro da Fatec para resolução de um problema real que a empresa enfrentava.
+
+<p align="center">Desafio 📈</p>
+
+O desafio foi criar um software que auxiliasse e economizasse o tempo dos digitadores da empresa que precisavem cadastrar algumas contas de água e luz manualmente.
+
+<h3 align="center">Tecnologias adotadas na solução</h3>
+
+<div align="center">
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+  <img src="https://img.shields.io/static/v1?label=Java&message=Back-End&color=007396&style=for-the-badge&logo=java"/>
+</a>
+
+</div>
+
+<h3 align="center">Contribuições individuais/pessoais</h3>
+
+- [x] Trabalhei na parte de conexão do banco via JDBC e com os CRUDs do sistema.
+
+<p align="center"> Classe para criar o BD </p>
+
+```bash
+public class CriarBanco {
+	public static void main(String[] args) throws SQLException {
+		// TODO Auto-generated method stub
+
+		final String url = "jdbc:mysql://localhost:3306?verifyServerCertificate=false&useSSL=true";
+		final String usuario = "root";
+		final String senha = "123456789";
+
+		// CRIANDO CONEXAO
+		Connection conexao = DriverManager.getConnection(url, usuario, senha);
+
+		Statement stmt = conexao.createStatement();
+
+		// CRIANDO BANCO DE DADOS SE ELE NÃO EXISTIR
+		stmt.execute("CREATE DATABASE IF NOT EXISTS projeto_integrador");
+
+		// DELETANDO O BANCO CASO ELE EXISTA
+		//stmt.execute("DROP DATABASE IF EXISTS curso_java");
+
+		System.out.println("Banco criado com sucesso!!!");
+
+		conexao.close();
+	}
+}
+```
+
+<p align="center"> Método de update </p>
+
+```bash
+public void update() throws SQLException {
+
+  Connection conexao = FabricaConexao.getConexao();
+
+  // Atribuindo oque foi digitado no textField a variavel x
+  String x = instalacaoField.getText();
+
+  // String SQL
+  String updateSQL = "UPDATE conta_luz SET nomeCliente = ?, vencimento = ?, contaMes = ?, consumo = ?, tarifa = ?, "
+      + "pis = ?, confins = ?, icms = ?, totalPagar = ? WHERE instalacao='"+ x + "'";
+
+  // Recebendo o updateSQL
+  PreparedStatement stmt = conexao.prepareStatement(updateSQL);		
+
+  // Setando no banco
+  stmt.setString(1, nomeClienteField.getText());
+  stmt.setString(2, vencimentoField.getText());
+  stmt.setString(3, contaMesField.getText());
+  stmt.setString(4, consumoField.getText());
+  stmt.setString(5, tarifaField.getText());
+  stmt.setString(6, pisField.getText());
+  stmt.setString(7, cofinsField.getText());
+  stmt.setString(8, icmsField.getText());
+  stmt.setString(9, totalPagarField.getText());
+
+  stmt.executeUpdate();
+
+  System.out.println("Dados atualizados com sucesso");
+
+  // Fechando conexoes
+  stmt.close();
+  conexao.close();
+  }
+```
+
+<h4 align="center">Hard Skills Efetivamente Desenvolvidas</h4>
+
+- [x] Aprofundei os meus conhecimentos com versionamento de código via GIT.
+- [x] Aprofundei os meus conhecimentos com metodologias ágeis com Scrum.
+- [x] Aprofundei os meus conhecimentos com Java.
+- [x] Aprendi a conectar o Java com um banco de dados MySql via JDBC.
+- [x] Aprendi a criar interface gráfica com o Java Swing.
 
 <h4 align="center">Soft Skills Efetivamente Desenvolvidas</h4>
 
