@@ -277,6 +277,7 @@ Desenvolver um sistema que permita customizar, controlar e revisar documentos fo
 - [x] Trabalhei principalmente no Front-end.
 - [x] Ajudei a desenvolver as telas e no consumo dos endpoints.
 - [x] Virei Scrum Master no decorrer do projeto.
+- [x] Propus o uso do framework JavaScript Vue.js para o front-end.
 
 <p align="center"> Métodos para buscar um documento no BD </p>
 
