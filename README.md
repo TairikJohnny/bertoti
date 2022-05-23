@@ -96,6 +96,7 @@ function fetchApi(url) {
 - [x] Comecei a aprender versionamento de código via GIT.
 - [x] Comecei a aprender metodologias ágeis com Scrum.
 - [x] Comecei a aprender JavaScript.
+- [x] Comecei a aprender a consumir APIs.
 - [x] Aprofundei os meus conhecimentos com HTML e CSS.
 
 <h4 align="center">Soft Skills Efetivamente Desenvolvidas</h4>
