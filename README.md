@@ -279,31 +279,47 @@ Desenvolver um sistema que permita customizar, controlar e revisar documentos fo
 - [x] Virei Scrum Master no decorrer do projeto.
 - [x] Propus o uso do framework JavaScript Vue.js para o front-end.
 
-<p align="center"> Métodos para buscar um documento no BD </p>
+<p align="center"> Método para buscar um documento no BD </p>
 
 ```bash
-searchPartNumbers(documentName) {
-    http.get(DocumentsEndpoints.FIND_PART_NUMBER_BY_NAME, {
-        params: {
-            document_name: documentName
-        }
-    }).then(response => {
-        this.findedPartNumbers = response.data;
-    }).catch(error => {
-        console.log(error)
-    });
-},
-searchDocs() {
-    http.get(DocumentsEndpoints.FIND_ALL_DOCS)
-        .then(response => {
-            this.findedDocs = response.data;
-            let docsNames = [];
-            response.data.forEach(doc => docsNames.push(doc.name));
+getDocument() {
+  http.get(DocumentsEndpoints.FIND_ALL_BY, {
+      params: {
+          document_name: this.name,
+          part_number: this.partNumber
+      }
+  })
+      .then(response => {
+          this.document = response.data;
+          let documentId = response.data.id;
+          this.allReviews = this.document.revisions;
+          this.getOpenedReview(documentId);
 
-            this.findedDocsNames = docsNames;
-        }).catch(error => {
-            console.log(error)
-        });
+          console.log(this.openedReview);
+          console.log(this.allReviews);
+      }).catch(error => {
+      console.log(error);
+      //alert('Não foi possível obter o documento')
+      swal("Erro!", "Não foi possível obter o documento", "error");
+  });
+},
+```
+
+<p align="center"> Método para fechar a revisão do documento </p>
+
+```bash
+closeReview() {
+  http.put(`/revision/close?document_id=${this.document.id}`)
+      .then(response => {
+          this.closedReview = response.data;
+          //alert('Revisão fechada com sucesso!!')
+          swal("Sucesso!", "Revisão fechada com sucesso!", "success");
+      })
+      .catch(error => {
+          console.error(error);
+          //alert('Não foi possível fechar a revisão')
+          swal("Erro!", "Não foi possível fechar a revisão", "error");
+      })
 },
 ```
 
