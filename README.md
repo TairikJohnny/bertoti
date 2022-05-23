@@ -46,66 +46,57 @@ O desafio é criar uma assitente de voz que vai auxiliar o usuário a organizar 
 
 - [x] Trabalhei na tela de clima, ela descobre a localização do usuário e retorna o clima atualizado consumindo uma API pública do site [Weather API](https://openweathermap.org/api).
 
-<!-- <p align="center">Telas desenvolvidas por mim</p>
-
-<p align="center"> Tela de Login </p>
-<p align="center"> <img src="imagens-4-semestre/tela_login.png" alt="tela de login" class="center" width=800/> </p>
+<p align="center"> Scrip da tela de clima </p>
 
 ```bash
-<v-form
-  ref="form"
-  v-model="valid"
-  lazy-validation
-  @submit.prevent="do_login"
->
-  <span style="color: white; font-size: 18px">E-mail</span>
-  <v-text-field
-    label="Email"
-    v-model="usuario.email"
-    :rules="regra_email"
-    single-line
-    solo
-    required
-    dense
-    background-color="#A9A9A9"
-  ></v-text-field>
-  <span style="color: white; font-size: 18px">Senha</span>
-  <v-text-field
-    label="Senha"
-    v-model="usuario.senha"
-    :rules="regra_senha"
-    background-color="#A9A9A9"
-    single-line
-    solo
-    required
-    dense
-    password
-    :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
-    :type="show1 ? 'text' : 'password'"
-    @click:append="show1 = !show1"
-  ></v-text-field>
-  <v-btn
-    id="botao-login"
-    block
-    color="#C84634"
-    type="submit"
-    class="white--text"
-    :disabled="!valid"
-    @click="validate"
-    >Login</v-btn
-  >
-</v-form>
-``` -->
+// Função para descobrir a localização do usuário
+function getUserPosition() {
+  let url;
+  navigator.geolocation.getCurrentPosition((pos) => {
+    // Latitude informada pelo navegador sendo armazenada em uma variavel
+    let lat = pos.coords.latitude;
+    // Longitude informada pelo navegador sendo armazenada em uma variavel
+    let long = pos.coords.longitude;
+    // Inserindo a URL do site e adicionando a chave da API gerada no site
+    url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&APPID=0ed1849b155148f92803761f3cb5b7ce`;
+    // Chamando o método fetchApi e passando a URL
+    fetchApi(url);
+  });
+}
+
+// Salvando os retornos da API
+function fetchApi(url) {
+  // Salvando a localização do usuario informado pela API (cidade)
+  let city = document.querySelector('.city');
+  // Salvando a temperarura da cidade informada pela API 
+  let temp = document.querySelector('span');
+  // A função solicita os dados para a URL inserida a cima (requisição HTTP)
+  fetch(url)
+    .then((data) => {
+      // Retorno dos dados convertidos em JSON
+      return data.json();
+    })
+    .then((data) => {
+      // Convertendo a temperatura fornecida pela API para Celsius
+      let tempInCelsius = ((5 / 9) * (data.main.temp - 32)).toFixed(1);
+      // Retornando para o HTML a cidade e a temperatura convertida
+      city.innerText = `Hoje a temperatura em ${data.name} é:`;
+      temp.innerText = tempInCelsius;
+    })
+    // Tratamento de erros
+    .catch((err) => {
+      city.innerText = `Impossível executar a função. Verifique a sua conexão.`;
+      temp.innerText = `-`;
+    })
+}
+```
 
 <h4 align="center">Hard Skills Efetivamente Desenvolvidas</h4>
 
-- [x] Aprofundei meus conhecimentos no framework Vuejs como um todo.
-- [x] Aprendi a trabalhar com API REST no Vuejs.
-- [x] Aprendi a trabalhar com gerencimento de Organizações e Repositórios no GitHub.
-- [x] Aprendi como é gerenciar uma equipe através do método SCRUM.
-- [x] Aprofundei os meus conhecimentos na padrão de projetos MVC, o seu princípio básico é a divisão da aplicação em três camadas: a camada de interação do usuário (view), a camada de manipulação dos dados (model) e a camada de controle (controller).
-- [x] Como utilizamos um framework Javascript para facilitar a programação eu aprofundei os meus conhecimentos no padrão de projetos Facade que é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
-- [x] Como utlizamos o framework Javascript Vuejs aonde temos a estrutura de componentes compondo componentes eu aprofundei os meus conhecimentos no padrão de projetos Composite que é um padrão de projeto estrutural que permite que você componha objetos em estruturas de árvores e então trabalhe com essas estruturas como se elas fossem objetos individuais.
+- [x] Comecei a aprender versionamento de código via GIT.
+- [x] Comecei a aprender metodologias ágeis com Scrum.
+- [x] Comecei a aprender JavaScript.
+- [x] Aprofundei os meus conhecimentos com HTML e CSS.
 
 <h4 align="center">Soft Skills Efetivamente Desenvolvidas</h4>
 
