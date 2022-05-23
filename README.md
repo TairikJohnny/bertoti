@@ -46,7 +46,7 @@ O desafio é criar uma assitente de voz que vai auxiliar o usuário a organizar 
 
 - [x] Trabalhei na tela de clima, ela descobre a localização do usuário e retorna o clima atualizado consumindo uma API pública do site [Weather API](https://openweathermap.org/api).
 
-<p align="center"> Scrip da tela de clima </p>
+<p align="center"> Função para descobrir a localização do usuário </p>
 
 ```bash
 // Função para descobrir a localização do usuário
@@ -63,7 +63,11 @@ function getUserPosition() {
     fetchApi(url);
   });
 }
+```
 
+<p align="center"> Função para consumir a API </p>
+
+```bash
 // Salvando os retornos da API
 function fetchApi(url) {
   // Salvando a localização do usuario informado pela API (cidade)
