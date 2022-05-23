@@ -136,6 +136,9 @@ O desafio foi criar um software que auxiliasse e economizasse o tempo dos digita
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
   <img src="https://img.shields.io/static/v1?label=Java&message=Back-End&color=007396&style=for-the-badge&logo=java"/>
 </a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+  <img src="https://img.shields.io/static/v1?label=MySQL&message=Banco de Dados&color=4479A1&style=for-the-badge&logo=MySQL"/>
+</a>
 
 </div>
 
@@ -217,6 +220,99 @@ public void update() throws SQLException {
 - [x] Aprofundei os meus conhecimentos com Java.
 - [x] Aprendi a conectar o Java com um banco de dados MySql via JDBC.
 - [x] Aprendi a criar interface gráfica com o Java Swing.
+
+<h4 align="center">Soft Skills Efetivamente Desenvolvidas</h4>
+
+- [x] Trabalho em equipe
+- [x] Responsabilidade
+- [x] Organização
+- [x] Gestão do tempo
+- [x] Confiança
+
+<h1 align="center">API 3º SEMESTRE</h1>
+
+<h3 align="center">Resumo do Projeto</h3>
+
+<h2 align="center">
+MOM - Management of Operational Manuals
+</h2>
+
+<p align="center">Resumo</p>
+
+Software para gerenciamento de manuais operacionais de aviação.
+
+<p align="center">Projeto 🖥</p>
+
+Projeto proposto pelo Time de Publicação Operacional, da indústria aeronáutica, responsáveis por emitir, aprovar e revisar os manuais operacionais de aviação, destinados a pilotos, tripulação, despatcher de aeronaves e provedores de treinamento para resolução de um problema real enfrentado no gerenciamento dos manuais dos aviões.
+
+<p align="center">Desafio 📈</p>
+
+Desenvolver um sistema que permita customizar, controlar e revisar documentos formados por fragmentos armazenados em arquivos PDF, usando regras específicas para gerar o documento final.
+
+<h3 align="center">Tecnologias adotadas na solução</h3>
+
+<div align="center">
+
+
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+  <img src="https://img.shields.io/static/v1?label=Vue.js&message=Front-End&color=4FC08D&style=for-the-badge&logo=Vue.js"/>
+</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+  <img src="https://img.shields.io/static/v1?label=JavaScript&message=Front-End&color=F7DF1E&style=for-the-badge&logo=JavaScript"/>
+</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+  <img src="https://img.shields.io/static/v1?label=Java&message=Back-End&color=007396&style=for-the-badge&logo=java"/>
+</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+  <img src="https://img.shields.io/static/v1?label=Spring&message=Back-End&color=6DB33F&style=for-the-badge&logo=Spring"/>
+</a>
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element">
+  <img src="https://img.shields.io/static/v1?label=Oracle&message=Banco de Dados&color=F80000&style=for-the-badge&logo=Oracle"/>
+</a>
+
+</div>
+
+<h3 align="center">Contribuições individuais/pessoais</h3>
+
+- [x] Trabalhei principalmente no Front-end.
+- [x] Ajudei a desenvolver as telas e no consumo dos endpoints.
+- [x] Virei Scrum Master no decorrer do projeto.
+
+<p align="center"> Métodos para buscar um documento no BD </p>
+
+```bash
+searchPartNumbers(documentName) {
+    http.get(DocumentsEndpoints.FIND_PART_NUMBER_BY_NAME, {
+        params: {
+            document_name: documentName
+        }
+    }).then(response => {
+        this.findedPartNumbers = response.data;
+    }).catch(error => {
+        console.log(error)
+    });
+},
+searchDocs() {
+    http.get(DocumentsEndpoints.FIND_ALL_DOCS)
+        .then(response => {
+            this.findedDocs = response.data;
+            let docsNames = [];
+            response.data.forEach(doc => docsNames.push(doc.name));
+
+            this.findedDocsNames = docsNames;
+        }).catch(error => {
+            console.log(error)
+        });
+},
+```
+
+<h4 align="center">Hard Skills Efetivamente Desenvolvidas</h4>
+
+- [x] Aprofundei os meus conhecimentos com versionamento de código via GIT.
+- [x] Aprofundei os meus conhecimentos com metodologias ágeis com Scrum.
+- [x] Aprofundei os meus conhecimentos no framework Vue.js.
+- [x] Aprofundei os meus conhecimentos em JavaScript.
+- [x] Aprendi a consumir endpoints via Axios.
 
 <h4 align="center">Soft Skills Efetivamente Desenvolvidas</h4>
 
